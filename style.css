@@ -69,7 +69,35 @@ nav a:hover{
 }
 
 .section2{
-    background-color: #2f2d2d;
+    background-color: #201f1f;
     color: white;
 }
 
+.wrap-section2{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 0;
+    display: flex;
+}
+
+.grid1-section2{
+    width: 400px;
+}
+
+.grid1-section2 h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.grid1-section2 .btn{
+    margin-top: 40px;
+    background-color: #06b47a;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.grid2-section2{
+    border: 1px solid white;
+    text-align: start;
+}
