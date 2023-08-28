@@ -62,7 +62,6 @@ nav a:hover{
 .iframe-wrap{
     align-items: center;
     height: 600px;
-    border:  1px solid black;
     margin-top: 30px;
     margin-bottom: 60px;
 }
@@ -70,12 +69,13 @@ nav a:hover{
 .iframe-wrap iframe{
     width: 100%;
     height: 100%;
+    border: none;
 }
 
 .section2{
     background-color: #201f1f;
     color: white;
-    height: 700px;
+    height: 600px;
     margin-top: 30px;
 }
 
@@ -114,6 +114,7 @@ nav a:hover{
     padding-top: 80px;
     text-align: start;
     width: 100%;
+    margin-left: 80px;
 }
 
 .wrap-p{
@@ -131,3 +132,51 @@ nav a:hover{
     height: 80%;
 }
 
+.section3{
+    margin-top: 200px;
+    background-color: white;
+    height: 500px;
+
+}
+
+.wrap-section3{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 50px;
+}
+
+.wrap-h-section3{
+    padding: 60px;
+    padding-left: 0;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.wrap-grid-section3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    padding-left: 0;
+}
+
+.wrap-grid-section3 h3{
+    font-size: 35px;
+}
+
+.wrap-grid-section3 h4{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.wrap-grid-section3 p{
+    font-size: 16px;
+    width: 310px;
+    padding: 10px;
+    padding-left: 0;
+    color: #7b7b7b;
+}
+
+footer{
+    background-color: #06b47a;
+    height: 500px;
+}
