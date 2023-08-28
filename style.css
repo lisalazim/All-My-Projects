@@ -11,15 +11,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 90px;
     background-color: white;
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 120px;
     margin-right: 120px;
 }
 
 .logo h3 {
-    font-weight: 300;
+    font-weight: 500;
     color: #7b7b7b;
 }
 
@@ -31,7 +31,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    width: 500px;
 }
 
 nav a {
@@ -136,6 +136,7 @@ nav a:hover{
     margin-top: 200px;
     background-color: white;
     height: 500px;
+    margin-bottom: 100px;
 
 }
 
@@ -177,8 +178,8 @@ nav a:hover{
 }
 
 footer{
-    background-color: #201f1f;;
-    height: 500px;
+    background-color: #201f1f;
+    height: 550px;
 }
 
 .wrap-foot{
@@ -186,7 +187,7 @@ footer{
     margin-right: 120px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 70px;
+    padding: 140px;
     padding-left: 0;
 }
 
@@ -203,15 +204,63 @@ footer{
     display: block;
 }
 
-.div2{
-   background-color: #06b47a;
+.div2 h3{
+    margin-top: 5px;
+    color: white;
 }
 
 .div2 a{
     color: white;
+    text-decoration: none;
+}
+
+.div2 a:hover{
+    text-decoration: underline  #06b47a;
 }
 
 .div-nav-foot{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    row-gap: 20px;
+}
+
+.div3 form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px; 
+}
+
+.div3 input{
+    padding: 10px;
+    background-color: #424040;
+    border: none;
+}
+
+.div3 input::placeholder{
+    color:#817d7d
+}
+
+.div3 .btn {
+    background-color: #06b47a;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.div3-nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 50px;
+    margin-top: 47px;
+}
+
+.div3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.div3 a:hover{
+    text-decoration: underline  #06b47a;
 }
