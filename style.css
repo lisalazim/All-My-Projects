@@ -177,6 +177,41 @@ nav a:hover{
 }
 
 footer{
-    background-color: #06b47a;
+    background-color: #201f1f;;
     height: 500px;
+}
+
+.wrap-foot{
+    margin-left: 120px;
+    margin-right: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 70px;
+    padding-left: 0;
+}
+
+.div1 h1{
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 0;
+    color: white;
+}
+
+.div1 h1 span{
+    font-weight: 700;
+    margin-top: -20px;
+    display: block;
+}
+
+.div2{
+   background-color: #06b47a;
+}
+
+.div2 a{
+    color: white;
+}
+
+.div-nav-foot{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
