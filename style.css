@@ -3,20 +3,20 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
+    overflow-x: hidden;
 }
 
-
-
-header{
+.wrap-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    padding: 20px;
     background-color: white;
-    font-size: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
+    font-size: 18px;
+    background-color: aqua;
 }
+
+
 
 .logo h3 {
     font-weight: 500;
@@ -29,9 +29,9 @@ header{
 }
 
 nav{
-    display: flex;
+    display: none;
     justify-content: space-between;
-    width: 500px;
+    width: 400px;
 }
 
 nav a {
@@ -44,26 +44,25 @@ nav a:hover{
     color: black;
 }
 
-.section1{
-    margin-left: 120px;
-    margin-right: 120px;
-}
+
+/*main*/
+
 
 .section1 h1 {
-    padding: 70px;
-    padding-left: 0;
+    padding: 50px;
+    padding-left: 20px;
     text-align: start;
     align-items: center;
-    font-size: 40px;
-    
+    font-size: 20px;    
 }
-
 
 .iframe-wrap{
     align-items: center;
-    height: 600px;
+    height: 210px;
     margin-top: 30px;
     margin-bottom: 60px;
+    padding: 20px;
+    overflow: hidden;
 }
 
 .iframe-wrap iframe{
@@ -72,36 +71,35 @@ nav a:hover{
     border: none;
 }
 
+
 .section2{
     background-color: #201f1f;
     color: white;
-    height: 600px;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 .wrap-section2{
-    margin-left: 120px;
-    margin-right: 120px;
     height: 100%;
-    display: flex;
 }
 
 .grid1-section2{
     width: 400px;
-    padding-top: 80px;
+    padding: 20px;
 }
 
 .grid1-section2 h2{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 .grid1-section2 .btn{
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: #06b47a;
     color: white;
-    padding: 10px;
+    padding: 7px;
     border: none;
+    font-size: 10px;
 }
 
 .btn:hover{
@@ -111,26 +109,28 @@ nav a:hover{
 }
 
 .grid2-section2{
-    padding-top: 80px;
+    padding: 20px;
     text-align: start;
     width: 100%;
-    margin-left: 80px;
 }
 
 .wrap-p{
-    width: 500px;
+    width: 300px;
+    font-size: 10px;
 }
 
 .wrap-img{
+    margin-top: 40px ;
     width: 100%;
-    margin-top: 50px;
     z-index: 1;
 }
 
 .wrap-img img{
-    width: 100%;
-    height: 80%;
+    width: 90%;
+    height: 100%;
 }
+
+
 
 .section3{
     margin-top: 200px;
@@ -179,7 +179,6 @@ nav a:hover{
 
 footer{
     background-color: #201f1f;
-    height: 550px;
 }
 
 .wrap-foot{
@@ -264,3 +263,75 @@ footer{
 .div3 a:hover{
     text-decoration: underline  #06b47a;
 }
+
+@media (min-width: 426px ) {
+    .wrap-header{
+        font-size: 20px;
+        padding: 40px;
+    }
+
+    nav{
+        display: flex;
+    }
+    
+    .section1 h1 {
+        padding: 70px;
+        padding-left: 40px;
+        font-size: 40px;    
+    }
+
+    .iframe-wrap{
+        align-items: center;
+        height: 600px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        padding: 40px;
+    }
+    
+    .iframe-wrap iframe{
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+
+    .section2{
+        height: 600px;
+    }
+
+    .wrap-section2{
+        margin-left: 120px;
+        margin-right: 120px;
+        display: flex;
+    }
+
+    .grid1-section2{
+        padding-top: 80px;
+    }
+
+    .grid1-section2 h2{
+        font-size: 40px;
+    }
+
+    .grid1-section2 .btn{
+        margin-top: 40px;
+        padding: 10px;
+        border: none;
+    }
+
+    .grid2-section2{
+        padding-top: 80px;
+        margin-left: 80px;
+    }
+
+    .wrap-p{
+        width: 500px;
+    }
+
+    .wrap-img{
+        margin-top: 50px;
+    }
+
+    .wrap-img img{
+        width: 100%;
+        height: 100%;
+    }
